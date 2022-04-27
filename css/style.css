@@ -1,0 +1,454 @@
+@import "reset.css";
+
+@font-face {
+   font-family: "New-YorkerC";
+   src: url("../fonts/New-YorkerC.woff2") format("woff2"), url("../fonts/New-YorkerC.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+   height: 100%;
+   width: 100%;
+   font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   background: #E5E5E5;
+}
+
+.container {
+   max-width: 1080px;
+   margin: 0 auto;
+   background: #fff;
+}
+
+header {
+   /*display: none;*/
+}
+
+.header-img {
+   display: flex;
+   width: 1080px;
+   background: url('../img/header/frame.png') 175px 137px no-repeat, url('../img/header/blur.png') 436px 103px no-repeat, url('../img/header/blur_2.png') 0 520px no-repeat, url('../img/header/star_1.png') 127px 91px no-repeat, url('../img/header/star_2.png') 876px 970px no-repeat, url('../img/header/star_3.png') 896px 1006px no-repeat;
+   padding: 183px 0 0;
+}
+
+.img {
+   margin: 0 auto 158px;
+}
+
+.header__title {
+font-size: 104px;
+background: url('../img/header/star_2.png') 828px 38px no-repeat;
+color: #636464;
+margin: 0 0 36px 0;
+}
+
+.title {
+font-family: "New-YorkerC";
+font-style: normal;
+font-weight: 400;
+line-height: 1.2;
+text-align: center;
+}
+
+.header__subtitle {
+   font-weight: 300;
+   font-size: 36px;
+   text-align: center;
+   line-height: 44px;
+   text-transform: uppercase;   
+   color: #221B16;
+   margin: 0 0 85px 0;
+}
+
+/*----------------------------------------------- description ---------------------------------------*/
+
+.description {
+   background: url('../img/description/ellipse_1.png') 325px 47px no-repeat, url('../img/description/star_1.png') 935px 525px no-repeat;
+}
+
+.description__number {
+   font-family: "New-YorkerC";
+   font-weight: 400;
+   font-size: 104px;
+   line-height: 1.2;   
+   text-align: center;   
+   color: #636464;
+   margin: 0 0 7px 0;
+}
+
+.description__text {  
+   color: #000000;
+   margin: 0 0 56px 0;
+}
+.text {
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 1.2;
+   text-align: center;
+   text-transform: lowercase;
+}
+
+.last-text {
+   margin: 0 0 174px 0;
+}
+
+.last {
+   padding: 0px 0px 675px 0px;
+}
+
+.button {
+   display: flex;
+   justify-content: center;
+}
+
+.description__link {
+   padding: 78px 142px;
+   margin: 0 0px 196px 0;
+}
+
+.link {
+   display: inline-block;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 1.2;
+   text-align: center;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   background: #87827D;
+   border-radius: 101px;
+}
+
+/*----------------------------------------------- services ---------------------------------------*/
+
+.services {
+   background: #87827D;
+}
+
+.services__title {
+   font-weight: 400;
+   font-size: 72px;
+   color: #fff;
+   padding: 96px 0 0 0;
+   margin: 0 0 92px 0;
+}
+
+.services__text {
+   color: #FFF;
+}
+
+.services__text:not(.last) {
+   margin: 0 0 105px 0;
+}
+
+.icon {
+   display: flex;
+   justify-content: center;
+   margin: 0 0 19px 0;
+}
+
+/*----------------------------------------------- about-me ---------------------------------------*/
+
+
+.about-me__img {
+   display: flex;
+}
+
+.about-me__img img {
+   margin: -570px auto 0px;
+}
+
+.about-me__subtitle {
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 1.2;
+   text-transform: uppercase;
+   color: #636464;
+   padding: 0px 0 0 0;
+   margin: 0 0 196px 105px;
+}
+
+.about-me__subtitle::before {
+   content: "";
+   display: inline-block;
+   width: 44px;
+   height: 44px;
+   background: url('../img/about_me/plus.png') 0 0px/44px no-repeat;
+   padding: 0px 0 0 0;
+   margin: 0px 16px 0 -61px;
+   position: relative;
+   top: 10px;
+}
+
+.about-me__title {
+   font-size: 96px;
+   line-height: 1.2;
+   text-align: left;
+   color: #636464;
+}
+
+.style {
+   margin: 0px 0px 0px 94px;
+}
+
+.minimal {
+   margin: 0px 0px 0px 228px;
+}
+
+.estetic {
+   margin: 0px 0px 196px 425px;
+}
+
+.about-me__help {
+   font-family: 'New-YorkerC';
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 1.2;
+   text-align: center;
+   color: #636464;
+   background: url('../img/about_me/star_1png.png') 396px 30px no-repeat, url('../img/about_me/star_2.png') 845px 114px no-repeat;
+   margin: 0 0 96px 0;
+}
+
+.list-title {
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 1.2;
+   text-align: center;
+   text-transform: uppercase;
+   color: #636464;
+   margin: 0 0 42px 0;
+}
+
+.list-item {
+   font-size: 36px;
+   line-height: 44px;
+   text-transform: lowercase;
+   color: #636464;
+   padding: 0px 0px 0px 112px;
+}
+
+.list-item:not(.list li:last-child)::before {
+   display: inline-block;
+   content: "";
+   width: 35px;
+   height: 28px;
+   background: url('../img/about_me/list.png') 0 0 no-repeat;
+   margin: 0 24px 0 -59px;
+}
+
+.list li:not(:last-child) {
+   margin: 0 0 42px 0;
+}
+
+.list li:last-child {
+   margin: 0 0 96px 0;
+   
+}
+
+.list li:last-child::before {
+   display: inline-block;
+   content: "";
+   width: 58px;
+   height: 51px;
+   background: url('../img/about_me/purse.png') 0 0 no-repeat;
+   margin: 0 33px 0 -59px;
+}
+
+.list li:last-child::after {
+   display: inline-block;
+   content: "";
+   width: 14px;
+   height: 21px;
+   background: url('../img/about_me/rub.png') 0 0 no-repeat;
+   margin: 0px 0px 0px 22px;
+}
+
+.about-me__link {
+   padding: 78px 250px;
+   margin: 0px 0px 196px 0px;
+}
+
+/*----------------------------------------------- examples ---------------------------------------*/
+
+.examples {
+   /*display: none;*/
+   background: url('../img/examples/star_1.png') 865px 270px no-repeat, url('../img/examples/star_2.png') 898px 318px no-repeat, url('../img/examples/star_3.png') 98px 1470px no-repeat, url('../img/examples/big_frame.svg') 119px 306px no-repeat, url('../img/examples/frame_1.png') 178px 350px no-repeat, url('../img/examples/frame_2.png') 363px 648px no-repeat, url('../img/examples/frame_3.png') 548px 948px no-repeat;
+   background-color: #87827D;
+}
+
+.examples-title {
+   font-family: 'New-YorkerC';
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 1.2;
+   text-align: center;
+   color: #FFFFFF;
+   padding: 96px 0px 0px 0px;
+   margin: 0px 0px 200px 0px;
+}
+
+.examples-img {
+   max-height: 1250px;
+   margin: 0px 0px 145px 0px;
+}
+
+.examples-one {
+   position: relative;
+   left: 155px;
+}
+
+.examples-two {
+   position: relative;
+   left: 340px;
+   bottom: 280px;
+}
+
+.examples-three {
+   position: relative;
+   left: 525px;
+   bottom: 555px;
+}
+
+.examples__link {
+   color: #636464;
+   background-color: #fff;
+   padding: 82px 256px;
+   margin: 0px 0px 196px 0px;
+}
+
+/*----------------------------------------------- reviews ---------------------------------------*/
+
+.reviews {
+   /*display: none;*/
+   background: url('../img/reviews/ellipse.png') 65px 230px no-repeat, url('../img/reviews/star_1.png') 780px 230px no-repeat, url('../img/reviews/star_2.png') 830px 285px no-repeat, url('../img/reviews/star_3.png') 200px 997px no-repeat, url('../img/reviews/three_dots.png') 463px 1170px no-repeat;
+}
+
+.reviews-title {
+   font-family: 'New-YorkerC';
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 1.2;
+   text-align: center;
+   color: #636464;
+   padding: 96px 0px 0px 0px;
+   margin: 0px 0px 145px 0px;
+}
+
+.reviews-img {
+   display: flex;
+   justify-content: center;
+   margin: 0px 0px 65px 0px;
+}
+
+.block-text {
+   /*width: 843px;*/
+}
+
+.reviews-text {
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 1.36;
+   color: #636464;
+   margin: 0px 0px 25px 118px;
+}
+
+.reviews-autor {
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 1.2;
+   color: #636464;
+   margin: 0px 0px 527px 550px;
+}
+
+.reviews-faq {
+   font-family: 'New-YorkerC';
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 1.2;
+   text-align: center;
+   color: #636464;
+   margin: 0px 0px 78px 0px;
+}
+
+.item-list {
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 1.2;
+   text-transform: uppercase;
+   color: #636464;
+   padding: 0px 0px 0px 107px;
+}
+
+.item-list:not(:last-child) {
+   margin: 0px 0px 62px 0px;
+}
+
+.item-list:last-child {
+   margin: 0px 0px 200px 0px;
+}
+
+.item-list::before {
+   content: "";
+   display: inline-block;
+   width: 44px;
+   height: 44px;
+   background: url('../img/reviews/plus.png') 0 0px/44px no-repeat;
+   padding: 0px 0 0 0;
+   margin: 0px 16px 0 -61px;
+   position: relative;
+   top: 10px;
+}
+
+/*----------------------------------------------- footer ---------------------------------------*/
+
+.footer {
+   background-color: #87827D;
+}
+
+.contacts-title {
+   font-family: 'New-YorkerC';
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 1.2;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   padding: 97px 0px 0px 0px;
+   margin: 0px 0px 95px 0px;
+}
+
+.block-img {
+   display: flex;
+   justify-content: space-between;
+   width: 552px;
+   margin: 0px auto 96px;
+}
+
+.contacts-img {
+   background: #FFFFFF;
+   border-radius: 50%;
+   padding: 31px;
+}
+
+.contacts-text {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.contacts-text:not(:last-child) {
+   margin: 0px 0px 10px 0px;
+}
+
+.contacts-text:last-child {
+   padding: 0px 0px 200px 0px;
+}
